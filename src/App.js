@@ -4,11 +4,7 @@ import AuthForm from './AuthForm';
 
 function App() {
   return (
-<<<<<<< HEAD
    <div>Learning React</div>
-=======
-   <AuthForm/>
->>>>>>> newbranch
   );
 }
 
