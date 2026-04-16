@@ -1,38 +1,119 @@
-.App {
+/* Fix full height for React */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: #5de8fb;
+}
+
+/* Center container */
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.card {
+  width: 350px;
+  background: #f2f2f2;
+  padding: 30px;
+  border-radius: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Tabs */
+.tabs {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 20px;
+  background: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.tabs button:hover {
+  background: #ccc;
+}
+
+/* Active tab */
+.tabs .active {
+  background: #0f4c5c;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Heading */
+h2 {
+  text-align: left;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Forgot password */
+.forgot {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.forgot a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #0f4c5c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #093844;
+}
+
+/* Signup text */
+.signup-text {
+  margin-top: 15px;
+}
+
+/* Toggle link */
+.signup-text span {
+  color: #007bff;
+  cursor: pointer;
+}
+
+/* Anchor links */
+.signup-text a {
+  color: #007bff;
+  text-decoration: none;
 }
