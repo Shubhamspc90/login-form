@@ -1,9 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import AuthForm from './AuthForm';
 
 function App() {
   return (
-   <p>Learning React</p>
+<<<<<<< HEAD
+   <div>Learning React</div>
+=======
+   <AuthForm/>
+>>>>>>> newbranch
   );
 }
 
