@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-   <p>Learning React</p>
+   <div>Learning React</div>
   );
 }
 
